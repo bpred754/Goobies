@@ -11,6 +11,12 @@ Goobies Environment Setup
 sure there is a check mark for Goobies in the Build column. Then go to Build -> Build Solution, and once this is complete 
 the project should be able to run.
 
+Enabling Keyboard Input
+==============================================
+1. Open Game1.cs in Goobies root directory
+2. Comment out line 108 'screenStack.Peek().listen(GamePad.GetState(PlayerIndex.One));'
+3. Uncomment lines 111 and 112 where it says 'DEBUG --Keyboard Listener'
+
 Committing Changes
 ==============================================
 1. First update local repository with 'git pull https://github.com/bpred754/goobies.git'
