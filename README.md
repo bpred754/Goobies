@@ -22,6 +22,3 @@ Requirements
 ==============================================
 1. Git installed
 2. Goobies Contributor
-
-testing commit
-test Commit from mac
