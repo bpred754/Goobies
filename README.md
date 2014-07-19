@@ -17,7 +17,7 @@ Enabling Keyboard Input
 2. Comment out line 108 'screenStack.Peek().listen(GamePad.GetState(PlayerIndex.One));'
 3. Uncomment lines 111 and 112 where it says 'DEBUG --Keyboard Listener'
 
-Using Keyboard
+Using the Keyboard
 ==============================================
 1. Start Screen
   - Nagivate with up/down keys
