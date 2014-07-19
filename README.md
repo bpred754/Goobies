@@ -62,4 +62,4 @@ Committing Changes
 Requirements
 ==============================================
 1. Git installed
-2. Goobies Contributor
+2. Goobies Collaborator
