@@ -17,6 +17,41 @@ Enabling Keyboard Input
 2. Comment out line 108 'screenStack.Peek().listen(GamePad.GetState(PlayerIndex.One));'
 3. Uncomment lines 111 and 112 where it says 'DEBUG --Keyboard Listener'
 
+Using Keyboard
+==============================================
+1. Start Screen
+  - Nagivate with up/down keys
+  - Select with enter key
+2. Select Map Size Screen
+  - Same as Start Screen
+3. Select Map Screen
+  - Navigate with left/right keys
+  - Select with enter key
+4. Select Goobies Screen
+  - Change Goobies with left and right keys
+  - Select Goobie with space bar
+  - Move cursor with number pad (refer to movement section)
+  - When done press enter key to go to Game Screen
+5. Game Screen
+  - Rotate camera with left and right arrows
+  - Rotate camera into birds eye view up arrow
+  - Select with enter key
+  - Switch unit left with comma
+  - Switch unit right with period
+  - Change turns with backspace
+  - Move cursor with number pad (refer to movement section)
+6. Movement
+  - Up left - 7
+  - Up - 8
+  - Up right - 9
+  - Left - 4
+  - Right - 6
+  - Down left - 1
+  - Down - 2
+  - Down right - 3
+7. Game Screen keyboard keys can be changed in Goobies/GameObjects/Controllers/PlayerController.cs in the bottom section 
+labeled 'DEBUG -- Keyboard listeners'
+
 Committing Changes
 ==============================================
 1. First update local repository with 'git pull https://github.com/bpred754/goobies.git'
